@@ -1,12 +1,21 @@
-## Welcome to GitHub Pages
+## Installation
+If you got SkyWritter from the toolbox then you can just insert the model from the toolbox by double clicking and then move the module into ReplicatedStorage from the Workspace
 
-You can use the [editor on GitHub](https://github.com/binky007/SkyWritter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+If you downloaded SkyWritter Source from the github page then navigate to where you installed the file and drag and drop it into Roblox Studio's explorer and move to it ReplicatedStorage from wherever it was placed
 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```lua
+local function Test(Table)
+	for _, Value in ipairs(Table) do
+		Value = true
+	end
+	return Table
+end
+
+```
 
 ```markdown
 Syntax highlighted code block
